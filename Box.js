@@ -4,6 +4,7 @@ class Box{
         this.width = width;
         this.height = height;
         this.image = loadImage("crowned_creature.png");
+        this.visibility=255;
         World.add(world, this.body);
       }
       display(){

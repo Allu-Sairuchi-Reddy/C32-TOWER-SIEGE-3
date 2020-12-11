@@ -45,7 +45,6 @@ function draw() {
   if(backgroundImg){
     background(backgroundImg);
   }
-  background(backgroundImg); 
   Engine.update(engine);
 
   gr1.display();
